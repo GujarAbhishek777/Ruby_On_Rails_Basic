@@ -1,0 +1,2758 @@
+Started GET "/" for ::1 at 2023-04-07 10:39:04 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 31.1ms | Allocations: 483)
+Completed 200 OK in 115ms (Views: 56.1ms | ActiveRecord: 0.0ms | Allocations: 4468)
+
+
+Started GET "/" for ::1 at 2023-04-07 11:12:19 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.7ms | Allocations: 190)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 912)
+
+
+Started GET "/" for ::1 at 2023-04-07 11:12:19 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 8)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 418)
+
+
+Started GET "/" for ::1 at 2023-04-07 11:12:20 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 414)
+
+
+Started GET "/" for ::1 at 2023-04-07 11:12:20 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 8)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 417)
+
+
+Started GET "/home/index" for ::1 at 2023-04-07 11:12:42 +0530
+Processing by HomeController#index as HTML
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 2028)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.6.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+actiontext (6.0.6.1) lib/action_text/rendering.rb:19:in `with_renderer'
+actiontext (6.0.6.1) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `instance_exec'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.6.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.6.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.6.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/home/index" for ::1 at 2023-04-07 11:17:19 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+Completed 500 Internal Server Error in 166ms (ActiveRecord: 0.0ms | Allocations: 77521)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4739310>:0x00007f88a4743928>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:17:32 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 0.0ms | Allocations: 67320)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4739310>:0x00007f88a46ea3f0>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:18:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 0.0ms | Allocations: 67305)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4739310>:0x00007f88a44cf458>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:18:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 0.0ms | Allocations: 67301)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4739310>:0x00007f88a47484f0>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:20:18 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms | Allocations: 67303)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4739310>:0x00007f88a44fa388>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:20:19 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.0ms | Allocations: 67301)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4739310>:0x00007f88a4810d38>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:21:09 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms | Allocations: 68325)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a45f1ed0>:0x00007f88a45f0670>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:21:09 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 0.0ms | Allocations: 67301)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a45f1ed0>:0x000055b6db794e00>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:21:12 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 0.0ms | Allocations: 67302)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a45f1ed0>:0x00007f88a46b3d78>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:21:57 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 0.0ms | Allocations: 68325)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4375eb8>:0x00007f88a4374680>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:21:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms | Allocations: 67303)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4375eb8>:0x00007f88a48134e8>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:21:59 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 0.0ms | Allocations: 67302)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4375eb8>:0x00007f88a46f9828>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:22:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms | Allocations: 67302)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4375eb8>:0x00007f88a46b00d8>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:22:52 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 0.0ms | Allocations: 68323)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4793e50>:0x00007f88a47925f0>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:22:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms | Allocations: 67301)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4793e50>:0x00007f88a475bdc0>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:23:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms | Allocations: 67302)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4793e50>:0x00007f88a47c3a88>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:23:37 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms | Allocations: 67302)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4793e50>:0x000055b6d9336298>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-04-07 11:23:45 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.8ms | Allocations: 184)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 894)
+
+
+Started GET "/home" for ::1 at 2023-04-07 11:23:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/home/index" for ::1 at 2023-04-07 11:24:04 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 0.0ms | Allocations: 67333)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x00007f88a4793e50>:0x00007f88a431d448>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:28:39 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 203)
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms | Allocations: 72051)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_pack_tag' for #<#<Class:0x0000564747656e88>:0x00005647475749e8>
+Did you mean?  javascript_path
+               javascript_tag):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/home/index" for ::1 at 2023-04-07 11:30:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2823)
+
+
+Started GET "/home/index" for ::1 at 2023-04-07 11:30:48 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2406)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>Project01</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' 
+  </head>
+
+  <body>
+    <%= yield %>
+      </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>Project01</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:    
+8:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+9:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' 
+10:      </head>
+11:    
+12:      <body>
+13:        <%= yield %>
+14:          </body>
+15:    </html>
+  
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/home/index" for ::1 at 2023-04-07 11:30:55 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1553)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>Project01</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' 
+  </head>
+
+  <body>
+    <%= yield %>
+      </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>Project01</title>
+5:        <%= csrf_meta_tags %>
+6:        <%= csp_meta_tag %>
+7:    
+8:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+9:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' 
+10:      </head>
+11:    
+12:      <body>
+13:        <%= yield %>
+14:          </body>
+15:    </html>
+  
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:14: unknown regexp options - bdy
+app/views/layouts/application.html.erb:14: unmatched close parenthesis: /head>
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:18: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/home/index" for ::1 at 2023-04-07 11:31:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2864)
+
+
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT GET_LOCK('6222398921801333355', 0)[0m
+  [1m[35m (36.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUserdata (20230407062816)
+  [1m[35m (442.2ms)[0m  [1m[35mCREATE TABLE `userdata` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `username` varchar(255), `email` varchar(255), `password` varchar(255), `date_of_birth` varchar(255), `location` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230407062816')[0m
+  [1m[35m (59.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (16.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('6222398921801333355')[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (662.8ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (329.9ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUserdata (20230407062816)
+  [1m[35m (1041.9ms)[0m  [1m[35mCREATE TABLE `userdata` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `username` varchar(255), `email` varchar(255), `password` varchar(255), `date_of_birth` varchar(255), `location` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230407062816')[0m
+  [1m[35m (58.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUserdata01s (20230407064325)
+  [1m[35m (399.5ms)[0m  [1m[35mCREATE TABLE `userdata01s` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `username` varchar(255), `email` varchar(255), `password` varchar(255), `date_of_birth` varchar(255), `location` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230407064325')[0m
+  [1m[35m (91.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2023-04-07 06:43:42.696929', '2023-04-07 06:43:42.696929')[0m
+  [1m[35m (45.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Create (0.2ms)[0m  [1m[32mINSERT INTO `userdata01s` (`created_at`, `updated_at`) VALUES ('2023-04-07 07:02:08.014014', '2023-04-07 07:02:08.014014')[0m
+  [1m[35m (97.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUserdata01 Load (0.8ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` LIMIT 11[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Create (0.6ms)[0m  [1m[32mINSERT INTO `userdata01s` (`created_at`, `updated_at`) VALUES ('2023-04-07 07:04:25.160548', '2023-04-07 07:04:25.160548')[0m
+  [1m[35m (115.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUserdata01 Load (0.5ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` LIMIT 11[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):9)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi@gmail.com' LIMIT 1[0m
+  [1m[36mUserdata01 Create (0.2ms)[0m  [1m[32mINSERT INTO `userdata01s` (`username`, `email`, `password`, `date_of_birth`, `location`, `created_at`, `updated_at`) VALUES ('abhi', 'abhi@gmail.com', 'sdfdfgdg', '21/09/2000', 'Bhandup', '2023-04-07 07:12:27.014346', '2023-04-07 07:12:27.014346')[0m
+  [1m[35m (67.9ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):16)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi1@gmail.com' LIMIT 1[0m
+  [1m[36mUserdata01 Create (0.2ms)[0m  [1m[32mINSERT INTO `userdata01s` (`username`, `email`, `password`, `date_of_birth`, `location`, `created_at`, `updated_at`) VALUES ('abhi1', 'abhi1@gmail.com', 'sdfdfgdg', '21/09/2000', 'Bhandup', '2023-04-07 07:39:49.465191', '2023-04-07 07:39:49.465191')[0m
+  [1m[35m (162.7ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):24)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi2@gmail.com' LIMIT 1[0m
+  [1m[36mUserdata01 Create (0.2ms)[0m  [1m[32mINSERT INTO `userdata01s` (`username`, `email`, `password`, `date_of_birth`, `location`, `created_at`, `updated_at`) VALUES ('abhi2', 'abhi2@gmail.com', 'sdjgjfgjkdg', '20/09/2000', 'Bhandup', '2023-04-07 07:41:28.954218', '2023-04-07 07:41:28.954218')[0m
+  [1m[35m (95.8ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):39)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi2@gmail.com' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUserdata01 Load (0.4ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` WHERE `userdata01s`.`id` = 1 LIMIT 1[0m
+  [1m[36mUserdata01 Load (0.8ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` WHERE `userdata01s`.`id` = 5 LIMIT 1[0m
+  [1m[36mUserdata01 Load (0.8ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` WHERE `userdata01s`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Destroy (0.7ms)[0m  [1m[31mDELETE FROM `userdata01s` WHERE `userdata01s`.`id` = 5[0m
+  [1m[35m (96.4ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):53)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi2@gmail.com' LIMIT 1[0m
+  [1m[36mUserdata01 Create (0.2ms)[0m  [1m[32mINSERT INTO `userdata01s` (`username`, `email`, `password`, `date_of_birth`, `location`, `created_at`, `updated_at`) VALUES ('abhi2', 'abhi2@gmail.com', 'sdjgjfgjkdg', '20/09/2000', 'Bhandup', '2023-04-07 07:49:24.558211', '2023-04-07 07:49:24.558211')[0m
+  [1m[35m (47.9ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):61)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi2@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUserdata01 Load (0.8ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` WHERE `userdata01s`.`id` = 6 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Destroy (0.6ms)[0m  [1m[31mDELETE FROM `userdata01s` WHERE `userdata01s`.`id` = 6[0m
+  [1m[35m (88.8ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):70)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi2@gmail.com' LIMIT 1[0m
+  [1m[36mUserdata01 Create (0.3ms)[0m  [1m[32mINSERT INTO `userdata01s` (`username`, `email`, `password`, `date_of_birth`, `location`, `created_at`, `updated_at`) VALUES ('abhi2', 'abhi2@gmail.com', 'sdjgjfgjkdg', '20/09/2000', 'Bhandup', '2023-04-07 07:51:14.113327', '2023-04-07 07:51:14.113327')[0m
+  [1m[35m (58.0ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):77)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi2@gmail.com' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUserdata01 Load (0.8ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` WHERE `userdata01s`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Destroy (0.5ms)[0m  [1m[31mDELETE FROM `userdata01s` WHERE `userdata01s`.`id` = 7[0m
+  [1m[35m (108.6ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):86)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi232@gmail.com' LIMIT 1[0m
+  [1m[36mUserdata01 Create (0.5ms)[0m  [1m[32mINSERT INTO `userdata01s` (`username`, `email`, `password`, `date_of_birth`, `location`, `created_at`, `updated_at`) VALUES ('abhidr3', 'abhi232@gmail.com', 'sdjgjfgjkdg', '20/09/2000', 'Bhandup', '2023-04-07 08:34:57.032255', '2023-04-07 08:34:57.032255')[0m
+  [1m[35m (64.5ms)[0m  [1m[35mCOMMIT[0m
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in Userdata01 model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from irb_binding at (irb):94)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserdata01 Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `userdata01s` WHERE `userdata01s`.`email` = BINARY 'abhi345@gmail.com' LIMIT 1[0m
+  [1m[36mUserdata01 Create (0.2ms)[0m  [1m[32mINSERT INTO `userdata01s` (`username`, `email`, `password`, `date_of_birth`, `location`, `created_at`, `updated_at`) VALUES ('abh345', 'abhi345@gmail.com', 'sdjgjfgjkdg', '20/09/2000', 'Bhandup', '2023-04-07 08:37:27.878047', '2023-04-07 08:37:27.878047')[0m
+  [1m[35m (90.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2023-04-07 15:00:40 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 312)
+Completed 200 OK in 23ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 2879)
+
+
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:00:56 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01" for ::1 at 2023-04-07 15:01:10 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:20 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:26 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:26 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:03:26 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:20 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:04:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:05:28 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:05:36 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:11:29 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:11:35 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01s_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2023-04-07 15:11:42 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nikhil/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/railties-6.0.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.9ms | Allocations: 190)
+Completed 200 OK in 14ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2096)
+
+
+Started GET "/userdata01" for ::1 at 2023-04-07 15:13:56 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:14:44 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01" for ::1 at 2023-04-07 15:14:47 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01" for ::1 at 2023-04-07 15:14:47 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01" for ::1 at 2023-04-07 15:14:47 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01" for ::1 at 2023-04-07 15:14:47 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01" for ::1 at 2023-04-07 15:14:48 +0530
+  
+SyntaxError (/home/nikhil/project01/app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+app/controllers/userdata01_controller.rb:4: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01" for ::1 at 2023-04-07 15:15:29 +0530
+  
+Zeitwerk::NameError (expected file /home/nikhil/project01/app/controllers/userdata01_controller.rb to define constant Userdata01Controller, but didn't):
+  
+zeitwerk (2.6.7) lib/zeitwerk/loader/callbacks.rb:25:in `on_file_autoloaded'
+zeitwerk (2.6.7) lib/zeitwerk/kernel.rb:31:in `require'
+activesupport (6.0.6.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.6.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.6.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.6.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.6.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.6.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.6.1) lib/action_dispatch/http/request.rb:89:in `controller_class_for'
+actionpack (6.0.6.1) lib/action_dispatch/http/parameters.rb:100:in `binary_params_for?'
+actionpack (6.0.6.1) lib/action_dispatch/http/parameters.rb:91:in `set_binary_encoding'
+actionpack (6.0.6.1) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:47:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:15:29 +0530
+  
+ActionController::RoutingError (uninitialized constant Userdata01Controller
+Did you mean?  Userdata01sController):
+  
+actionpack (6.0.6.1) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.6.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.6.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01" for ::1 at 2023-04-07 15:15:31 +0530
+  
+ActionController::RoutingError (uninitialized constant Userdata01Controller
+Did you mean?  Userdata01sController):
+  
+actionpack (6.0.6.1) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.6.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.6.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:15:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/userdata01s"):
+  
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:16:06 +0530
+Processing by Userdata01sController#index as HTML
+Completed 406 Not Acceptable in 8ms (ActiveRecord: 0.0ms | Allocations: 7515)
+
+
+  
+ActionController::MissingExactTemplate (Userdata01sController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.6.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+actiontext (6.0.6.1) lib/action_text/rendering.rb:19:in `with_renderer'
+actiontext (6.0.6.1) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `instance_exec'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.6.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.6.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.6.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:16:10 +0530
+Processing by Userdata01sController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 753)
+
+
+  
+ActionController::MissingExactTemplate (Userdata01sController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.6.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+actiontext (6.0.6.1) lib/action_text/rendering.rb:19:in `with_renderer'
+actiontext (6.0.6.1) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `instance_exec'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.6.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.6.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.6.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:16:54 +0530
+Processing by Userdata01sController#index as HTML
+Completed 406 Not Acceptable in 7ms (ActiveRecord: 0.0ms | Allocations: 6054)
+
+
+  
+ActionController::MissingExactTemplate (Userdata01sController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.6.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+actiontext (6.0.6.1) lib/action_text/rendering.rb:19:in `with_renderer'
+actiontext (6.0.6.1) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `instance_exec'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.6.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.6.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.6.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:17:09 +0530
+Processing by Userdata01sController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 747)
+
+
+  
+ActionController::MissingExactTemplate (Userdata01sController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.6.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+actiontext (6.0.6.1) lib/action_text/rendering.rb:19:in `with_renderer'
+actiontext (6.0.6.1) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `instance_exec'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.6.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.6.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.6.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:17:09 +0530
+Processing by Userdata01sController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 747)
+
+
+  
+ActionController::MissingExactTemplate (Userdata01sController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.6.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+actiontext (6.0.6.1) lib/action_text/rendering.rb:19:in `with_renderer'
+actiontext (6.0.6.1) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `instance_exec'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.6.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.6.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.6.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:17:09 +0530
+Processing by Userdata01sController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 745)
+
+
+  
+ActionController::MissingExactTemplate (Userdata01sController#index is missing a template for request formats: text/html):
+  
+actionpack (6.0.6.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.6.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+actiontext (6.0.6.1) lib/action_text/rendering.rb:19:in `with_renderer'
+actiontext (6.0.6.1) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `instance_exec'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.6.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.6.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.6.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.6.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.6.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.6.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.6.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.6.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.6.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.6.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.6.1) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.6.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/cookies.rb:654:in `call'
+activerecord (6.0.6.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.6.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.6.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.6.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.6.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.6.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+railties (6.0.6.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:17:56 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4451)
+
+
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:17:59 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1867)
+
+
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:25:34 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 89)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2873)
+
+
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:31:02 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1862)
+
+
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:37:20 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2872)
+
+
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:37:20 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1871)
+
+
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:43:33 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1115)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2416)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>Username</th>
+<th>Email</th>
+<th>Password</th>
+<th>Date of Birth</th>
+<th>Location</th>
+</tr>
+</thead>
+
+<tbody>
+<%@userdata01.each do|userdata|%>
+<tr>
+<td><%= userdata.username %></td>
+<td><%= userdata.email %></td>
+<td><%= userdata.password %></td>
+<td><%= userdata.date_of_birth %></td>
+<td><%= userdata.location %></td>
+</tbody>
+</table>
+):
+1:    <!-- Latest compiled and minified CSS -->
+2:    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+3:    
+4:    <table class="table table-bordered">
+5:    <thead>
+6:    <tr>
+7:    <th>Username</th>
+8:    <th>Email</th>
+9:    <th>Password</th>
+10:    <th>Date of Birth</th>
+11:    <th>Location</th>
+12:    </tr>
+13:    </thead>
+14:    
+15:    <tbody>
+16:    <%@userdata01.each do|userdata|%>
+17:    <tr>
+18:    <td><%= userdata.username %></td>
+19:    <td><%= userdata.email %></td>
+20:    <td><%= userdata.password %></td>
+21:    <td><%= userdata.date_of_birth %></td>
+22:    <td><%= userdata.location %></td>
+23:    </tbody>
+24:    </table>
+  
+app/views/userdata01s/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+app/views/userdata01s/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+app/views/userdata01s/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+app/views/userdata01s/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+app/views/userdata01s/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+app/views/userdata01s/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+Started GET "/userdata01s" for ::1 at 2023-04-07 15:45:06 +0530
+Processing by Userdata01sController#index as HTML
+  Rendering userdata01s/index.html.erb within layouts/application
+  [1m[36mUserdata01 Load (0.4ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s`[0m
+  ↳ app/views/userdata01s/index.html.erb:16
+  Rendered userdata01s/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 6959)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 1.4ms | Allocations: 9757)
+
+
+  [1m[36mUserdata01 Load (0.2ms)[0m  [1m[34mSELECT `userdata01s`.* FROM `userdata01s` ORDER BY `userdata01s`.`id` DESC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUser01s (20230407105049)
+  [1m[35m (277.1ms)[0m  [1m[35mCREATE TABLE `user01s` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230407105049')[0m
+  [1m[35m (44.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateChannels (20230407105144)
+  [1m[35m (408.4ms)[0m  [1m[35mCREATE TABLE `channels` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230407105144')[0m
+  [1m[35m (125.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddFile (20230407105822)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddFile (20230407105822)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE `channels` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `owner` varchar(255), `ownereid` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddFile (20230407105822)
+  [1m[35m (640.4ms)[0m  [1m[35mALTER TABLE `channels` ADD `owmner` varchar(255)[0m
+  [1m[35m (522.3ms)[0m  [1m[35mALTER TABLE `channels` ADD `ownereid` varchar(255)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230407105822')[0m
+  [1m[35m (43.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('4734782080484038695', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddCol (20230407110932)
+  [1m[35m (540.0ms)[0m  [1m[35mALTER TABLE `user01s` ADD `name` varchar(255)[0m
+  [1m[35m (657.8ms)[0m  [1m[35mALTER TABLE `user01s` ADD `email` varchar(255)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230407110932')[0m
+  [1m[35m (88.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734782080484038695')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
